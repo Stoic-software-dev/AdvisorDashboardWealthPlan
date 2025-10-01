@@ -27,7 +27,7 @@ const CapRateCalculator = React.lazy(() => import('./CapRateCalculator'));
 const CostBenefitCalculator = React.lazy(() => import('./CostBenefitCalculator'));
 const LifetimeTaxPlannerCalculator = React.lazy(() => import('./LifetimeTaxPlannerCalculator'));
 const LongTermCashFlowCalculator = React.lazy(() => import('./LongTermCashFlowCalculator'));
-const CppOasBreakevenCalculator = React.lazy(() => import('./CppOasBreakevenCalculator'));
+const CppOasBreakevenCalculator = React.lazy(() => import('./CPPOASBreakevenCalculator'));
 
 
 export default function CalculatorViewerModal({
