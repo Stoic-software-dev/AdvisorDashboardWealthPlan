@@ -1,13 +1,11 @@
-:{$PORT:8080}
+:8080
 
-root * /app/dist
+root * dist
 file_server
 try_files {path} /index.html
 encode gzip
 
 header {
-    # Enable HSTS
-    Strict-Transport-Security "max-age=31536000;"
     # Prevent clickjacking
     X-Frame-Options "SAMEORIGIN"
     # Prevent MIME sniffing
